@@ -1,0 +1,79 @@
+
+body{
+	
+	font-family: Helvetica, Arial, Sans-serif;
+	position: relative;
+	padding: 0 50px;
+}
+
+h1, h2, h3, h4, th{
+	text-align: center;
+}
+
+.diner-image img{
+	width: 100%;
+
+}
+
+section{
+	margin-bottom: 50px;
+	display: block;
+	float: none;
+	clear: both;
+	width: 100%;
+}
+
+.reserve-left{
+	vertical-align: top;
+	display: block;
+	float: left;
+	width: 48%;
+	min-height: 200px;
+}
+
+.reserve-left input{
+	margin: 0 5px;
+	padding: 5px;
+	width: 75%;
+}
+
+#reserve-form div{
+	text-align: center;
+	margin: 10px;
+}
+
+.reserve-right{
+	vertical-align: top;
+	display: block;
+	float: right;
+	width: 48%;
+	min-height: 235px;
+}
+
+.reserve-right table{
+	padding: 0 50px 50px;
+	border: none;
+	width: 100%;	
+}
+
+.reserve-right td{
+	width: 50%;
+}
+
+.restaurant-location {
+	
+}
+
+#review-img {
+	vertical-align: top;
+	display: block;
+	float: left;
+	width: 48%;
+}
+
+#review-text {
+	vertical-align: top;
+	display: block;
+	float: right;
+	width: 48%;
+}
