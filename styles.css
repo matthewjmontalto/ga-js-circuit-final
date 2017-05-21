@@ -61,7 +61,9 @@ section{
 }
 
 .restaurant-location {
-	
+	display: block;
+	vertical-align: top;
+	height: 50vh
 }
 
 #review-img {
